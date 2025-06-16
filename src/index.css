@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+/* theme */
+@theme {
+  /* color */
+  --color-kon-iro: #28264B;
+  --color-gofun-iro: #E8EAE7;
+  --color-akane-iro: #A40033;
+  --color-fujiiro: #959EC9;
+  --color-ainezu: #4E5174;
+
+  /* font */
+  --font-prompt: "Prompt", sans-serif;
+  --font-kiwi-maru-jp: "Kiwi Maru", serif;
+}
+
+/* setup */
+html {
+  scroll-behavior: smooth;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg,var(--color-akane-iro) 0%, var(--color-gofun-iro) 50%, var(--color-kon-iro) 100%);
+  border-radius: 6px;
+}
+
+/* class */
+.btn-primary {
+  @apply w-full sm:w-auto inline-flex items-center justify-center rounded-md bg-transparent border border-kon-iro px-4 py-2.5 text-sm font-semibold text-kon-iro hover:bg-kon-iro hover:text-white transition;
+}
