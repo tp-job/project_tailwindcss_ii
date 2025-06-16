@@ -1,12 +1,25 @@
-# React + Vite
+![image](https://github.com/user-attachments/assets/b2e407ad-0013-4746-9833-fb5250e9738a)# Demo State Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project provides a minimal setup using **React** and **Vite** with **Hot Module Replacement (HMR)** and some basic **ESLint** rules for development convenience.
 
-Currently, two official plugins are available:
+It is designed as a demo state website — suitable for showcasing UI/UX, interactive content, and component-based layouts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React + Vite minimal setup
+- ♻️ Fast Refresh / HMR support
+- 🎨 Responsive layout (can be customized)
+- 🔍 ESLint rules for clean code
+- 📦 Easy to extend with your own components
+
+---
+
+## 📸 Live Preview
+
+> Example layout or landing page preview from the current design
+
+![Website Preview](https://github.com/user-attachments/assets/2956e8c6-b895-4ff0-9b45-31f30151b3e2)
+
+---
