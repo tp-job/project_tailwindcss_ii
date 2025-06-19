@@ -11,7 +11,7 @@ const App = () => {
     <div className="font-prompt text-gray-400">
       <div className="min-h-screen md:pt-4 md:px-6">
         <Navbar />
-        <div className=" scroll-smooth mt-16">
+        <div className="scroll-smooth mt-16">
           <Home id="home" />
           <About id="about" />
           <Services id="services" />
