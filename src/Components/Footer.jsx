@@ -31,10 +31,18 @@ const Footer = () => {
                 <div>
                     <h2 className="text-lg font-semibold text-gofun-iro mb-4">Follow Us</h2>
                     <div className="flex gap-4 text-xl">
-                        <a href="#" className="hover:text-akane-iro"><i className="fab fa-facebook-f" /></a>
-                        <a href="#" className="hover:text-akane-iro"><i className="fab fa-twitter" /></a>
-                        <a href="#" className="hover:text-akane-iro"><i className="fab fa-instagram" /></a>
-                        <a href="#" className="hover:text-akane-iro"><i className="fab fa-github" /></a>
+                        <a href="#" className="hover:text-akane-iro">
+                            <i className="fab fa-facebook-f" />
+                        </a>
+                        <a href="#" className="hover:text-akane-iro">
+                            <i className="fab fa-twitter" />
+                        </a>
+                        <a href="#" className="hover:text-akane-iro">
+                            <i className="fab fa-instagram" />
+                        </a>
+                        <a href="#" className="hover:text-akane-iro">
+                            <i className="fab fa-github" />
+                        </a>
                     </div>
                 </div>
             </div>
